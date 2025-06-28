@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: data_source
+    schema: ssathkum_glue_metastore
+
+    tables:
+      - name: customerscustomers
