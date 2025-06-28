@@ -1,7 +1,7 @@
 with CTE as
 (
 SELECT country
-From ssathkum_glue_metastore.customerscustomers
+From default.customers
 where country is not null
 )
 Select *
