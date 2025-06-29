@@ -1,6 +1,6 @@
 with CTE as
 (
-SELECT country
+SELECT distinct city,country
 From default.customers
 where country is not null
 )
