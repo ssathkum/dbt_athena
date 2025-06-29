@@ -1,9 +1,3 @@
     columns:
       - name: country,
         description: Customer country
-
-      - name: "customer id"
-        description: Customer Identifier
-
-      - name: "subscription date"
-        description: subscription date
