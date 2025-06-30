@@ -1,9 +1,15 @@
+models:
+  - name: dim_company
+    description: "company data"
     columns:
-      - name: country,
-        description: Customer country
+      - name: company
+        description: "compnay name"
 
-      - name: "customer id"
-        description: Customer Identifier
+  - name: dim_county
+    description: "country data"
+    columns:
+      - name: city
+        description: "city name"
 
-      - name: "subscription date"
-        description: subscription date
+      - name: country
+        description: "country name"

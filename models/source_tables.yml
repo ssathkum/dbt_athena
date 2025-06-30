@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: data_source
-    schema: ssathkum_glue_metastore
+    schema: default
 
     tables:
-      - name: customerscustomers
+      - name: customers
